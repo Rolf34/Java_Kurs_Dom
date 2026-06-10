@@ -1,0 +1,11 @@
+package ua.acity.observer;
+
+public enum EventType {
+    BUILDING_CREATED,
+    BUILDING_UPDATED,
+    BUILDING_DELETED,
+    REQUEST_CREATED,
+    REQUEST_COMPLETED,
+    USER_REGISTERED,
+    USER_REMOVED
+}
